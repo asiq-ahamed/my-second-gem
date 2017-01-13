@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'my/second/gem/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "my-second-gem"
+  spec.name          = "my_second_gem"
   spec.version       = My::Second::Gem::VERSION
   spec.authors       = ["Asiq Ahamed"]
   spec.email         = ["asiq.ahamed@gmail.com"]
